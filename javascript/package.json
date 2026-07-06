@@ -1,0 +1,16 @@
+{
+  "name": "yurticikargo-api-client",
+  "version": "1.0.0",
+  "description": "Yurtiçi Kargo SOAP API Client for Node.js",
+  "type": "module",
+  "main": "YurticiKargoClient.js",
+  "scripts": {
+    "test": "node tests/createShipment.test.js && node tests/cancelShipment.test.js && node tests/queryShipment.test.js && node tests/saveReturnShipmentCode.test.js",
+    "test:create": "node tests/createShipment.test.js",
+    "test:cancel": "node tests/cancelShipment.test.js",
+    "test:query": "node tests/queryShipment.test.js",
+    "test:return": "node tests/saveReturnShipmentCode.test.js"
+  },
+  "keywords": ["yurticikargo", "kargo", "soap", "shipping"],
+  "license": "MIT"
+}

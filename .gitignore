@@ -1,0 +1,45 @@
+# === OS ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === PHP ===
+php-bin/
+vendor/
+composer.lock
+
+# === .NET ===
+dotnet/bin/
+dotnet/obj/
+
+# === Java ===
+java/out/
+java/*.class
+java/target/
+
+# === Node.js ===
+node_modules/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# === Go ===
+go/bin/
+
+# === Docs (extracted text files) ===
+docs/*.txt
+
+# === Temp ===
+*.tmp
+*.log
